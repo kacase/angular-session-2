@@ -4,7 +4,7 @@
 <ul>
 	<!-- TODO: use routerLinks to navigate to the details using the product id -->
 	<li class="product-list-item" *ngFor="let product of products">
-		<code>{{product.id}}</code>
-		{{product.name}}
+		<a><code>{{product.id}}</code>
+			{{product.name}}</a>
 	</li>
 </ul>
