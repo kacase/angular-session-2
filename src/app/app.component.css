@@ -1,0 +1,12 @@
+.toolbar {
+  display: flex;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+button {
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
