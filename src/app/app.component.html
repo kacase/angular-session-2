@@ -1,14 +1,14 @@
 <div class="toolbar">
-	<span>Router Demo App</span>
-	<div class="spacer"></div>
+  <span>Router Demo App</span>
+  <div class="spacer"></div>
 
-	<!-- add a router link to this button -->
-	<button routerLink="">Home</button>
+  <!-- add a router link to this button pointing at the home route "" -->
+  <!-- additionally configure routerLinkActive to add the .active-route class to the button, whose route is active -->
+  <button>Home</button>
 
-	<!-- add a router link to this button -->
-	<button routerLink="products">Products</button>
+  <!-- add a router link to this button pointing at the product route "/products"-->
+  <button>Products</button>
 </div>
-
 
 <!-- TODO: currently all these components are shown at the same time.
   replace them with a router-outlet that shows content based on the current route
@@ -17,16 +17,28 @@
 <app-products></app-products>
 <app-details></app-details>
 
-
-
 <!-- Instructions -->
-<hr>
+<hr />
 <h3>Instructions</h3>
 <ol>
-	<li>Set up Routing in the <code>app.routing.module.ts</code></li>
-	<li>Configure the router outlet and links in the <code>app.component.html</code></li>
-	<li>Configure the list items in the <code>products.component.html</code> to link to the details component with each
-		ID as a parameter</li>
-	<li>Configure the <code>detail.component.ts</code> to dynamically show the correct product based on the route
-		parameter</li>
+  <li>Set up Routing in the <code>app.routing.module.ts</code></li>
+  <li>
+    Configure the router outlet and links in the <code>app.component.html</code>
+  </li>
+  <li>
+    Configure the list items in the <code>products.component.html</code> to link
+    to the details component with each ID as a parameter
+  </li>
+  <li>
+    Configure the <code>detail.component.ts</code> to dynamically show the
+    correct product based on the route parameter
+  </li>
 </ol>
+
+<p>
+  Refer back to the presentation, whenever you are unsure. There should be
+  examples for everything asked for you here. If you want even more information
+  about routers and what exactly you are doing, the
+  <a href="https://angular.io/guide/router">angular documentation</a> provides a
+  lot of detail.
+</p>

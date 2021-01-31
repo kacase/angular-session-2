@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 
 import { Product, ProductsService } from "./products.service";
 // TODO: import activatedRoute from "@angular/router";
+// import { ActivatedRoute} from "@angular/router"
 
 @Component({
   selector: "app-details",
@@ -12,6 +13,7 @@ export class DetailComponent {
 
   constructor(
     // TODO: inject activatedRoute into the component, so it an be used
+    // private activatedRoute: ActivatedRoute,
     private productsService: ProductsService
   ) {
     // TODO: access the route parameter that contains the id of the product you want

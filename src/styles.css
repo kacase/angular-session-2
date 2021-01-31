@@ -321,6 +321,10 @@ button {
   border-radius: 0.25em;
 }
 
+.active-route {
+  background-color: green;
+}
+
 .toolbar {
   background-color: gold;
   color: black;

@@ -9,7 +9,6 @@ import { HomeComponent } from "./home.component";
 import { DetailComponent } from "./detail.component";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { ProductsComponent } from "./products.component";
-import { ProductsService } from "./products.service";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
